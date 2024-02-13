@@ -1,0 +1,23 @@
+.form-div {
+    padding: 5rem;
+}
+
+.form-input {
+    width: 10rem;
+    height: 2rem;
+    border-radius: 10px;
+    border: 2px solid blueviolet;
+}
+
+.form-button {
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: 2px solid;
+    background-color: blueviolet;
+    color: white;
+}
+
+.form-button:hover {
+    background-color: rgb(65, 47, 81);
+}

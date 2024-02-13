@@ -1,0 +1,28 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title My store
+        link(rel="stylesheet", href="/css/main.css")
+    body 
+        header.main-header
+            nav.main-nav
+                ul.main-list
+                    li.list-items 
+                        a.active(href="/") Store
+                    li.list-items 
+                        a(href="/add-product") Add products
+        main
+            if allProducts.length > 0
+                each product in allProducts
+                    .product-item 
+                        header.product-header Name of product
+                        .product-content
+                            h1.product-name #{product.title}
+            else 
+                h1 No product yet
+                    
+       
+       
+    
